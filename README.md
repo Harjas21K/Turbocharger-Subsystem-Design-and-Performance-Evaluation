@@ -78,9 +78,7 @@ This project focuses on the parametric design and engineering analysis of a turb
 ---
 
 ## Current Progress
-- Completed initial research on compressor volute geometry
-- Developed first iteration of compressor housing (v1)
-- Defined baseline dimensions and scaling approach
+- 
 
 ---
 
