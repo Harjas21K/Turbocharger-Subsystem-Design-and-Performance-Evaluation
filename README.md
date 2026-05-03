@@ -78,7 +78,11 @@ This project focuses on the parametric design and engineering analysis of a turb
 ---
 
 ## Current Progress
-- 
+- Developed initial compressor wheel geometry using revolve-based profile
+-Implemented curved blade design using loft off 2 sketches with a spline guide curve
+-Applied circular pattern (12 blades) with consistent 3 mm thickness
+-Refined blade curvature and spacing for improved flow representation
+-Assigned material (7075-T6 aluminum) for realistic application context and efficient testing performance
 
 ---
 
