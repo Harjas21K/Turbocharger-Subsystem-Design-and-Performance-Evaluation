@@ -1,97 +1,191 @@
 # Turbocharger System Design and Analysis
 
 ## Overview
-This project focuses on the parametric design and engineering analysis of a turbocharger system, with emphasis on centrifugal compressor volute geometry, airflow management, and thermal considerations. The goal is to develop a mechanically and thermodynamically consistent design using SolidWorks, supported by research-driven decisions and iterative refinement.
+This project focuses on the parametric design and engineering analysis of a turbocharger subsystem, with emphasis on centrifugal compressor geometry, volute airflow routing, housing integration, and preliminary structural validation. The project is being developed in SolidWorks using iterative CAD refinement, engineering-based design decisions, and simulation-driven evaluation.
+
+![Turbocharger Assembly](Turbocharger%20asm%20draft.png)
 
 ---
 
 ## Objectives
-- Design a realistic turbocharger assembly (compressor, turbine, shaft, intercooler)
-- Develop a compressor volute with proper cross-sectional area distribution
-- Incorporate thermal-aware design between turbine and compressor regions
-- Apply parametric CAD modeling techniques in SolidWorks
-- Document engineering assumptions, design rationale, and trade-offs
+
+- Design a realistic turbocharger compressor-side assembly
+- Develop a centrifugal compressor wheel with curved blade geometry
+- Create a functional volute housing with tangential outlet routing
+- Improve internal airflow continuity through iterative geometry refinement
+- Apply parametric CAD modeling and assembly practices in SolidWorks
+- Conduct preliminary structural validation using FEA
+- Document design progression, assumptions, and engineering trade-offs
 
 ---
 
 ## System Components
+
 - Compressor Housing (Volute)
 - Compressor Wheel (Impeller)
-- Turbine Housing
-- Shaft Assembly
-- Intercooler and Piping
-- Mounting and Structural Components
+- Endplate / Mounting Structure
+- Tangential Outlet Geometry
+- Internal Airflow Passage
 
 ---
 
 ## Design Methodology
 
-### 1. Research
+### 1. Research and Design Planning
+
 - Reviewed centrifugal compressor and volute design principles
-- Analyzed cross-sectional area distribution and flow behavior
-- Studied real turbocharger geometries and cutaway models
-
-### 2. Concept Development
-- Defined baseline dimensions using proportional scaling
-- Established inlet diameter as primary reference parameter
-- Developed initial volute geometry based on gradual area expansion
-
-### 3. CAD Modeling (SolidWorks)
-- Parametric modeling of individual components
-- Assembly creation with constraint-based alignment
-- Interference detection and clearance validation
-
-### 4. Engineering Considerations
-- Flow path continuity and smooth transitions
-- Thermal isolation between turbine and compressor
-- Manufacturability (DFM) of housing geometries
-- Structural integrity of rotating components
-
-### 5. Analysis (Planned / In Progress)
-- Thermal distribution across turbine and compressor regions
-- Airflow behavior within volute geometry
-- Stress and deformation under operating conditions
+- Studied compressor airflow behavior and flow accumulation within volutes
+- Referenced real turbocharger geometries, cutaways, and compressor housings
+- Researched tongue/cutwater geometry and tangential outlet transitions
 
 ---
 
-## Compressor Volute Design Notes
-- Volute designed with progressively increasing cross-sectional area
-- Geometry based on conservation of mass and flow accumulation
-- Outlet positioned tangentially to spiral for smooth flow transition
-- Emphasis on minimizing turbulence and pressure loss
+### 2. Compressor Wheel Development
+
+- Developed initial compressor wheel geometry using revolve-based hub profiles
+- Implemented curved blade geometry using lofts between sketches with spline guide curves
+- Applied 12-blade circular pattern with consistent 3 mm blade thickness
+- Refined blade curvature and blade spacing to better represent centrifugal airflow behavior
+- Integrated compressor wheel into preliminary assembly configurations
+
+#### Compressor Wheel Geometry
+![Compressor Wheel](Compressor%20Wheel.png)
+
+#### Compressor Wheel Progress
+![Compressor Wheel Progress](Compressor%20Wheel%20-%20Copy.png)
+
+---
+
+### 3. Volute and Housing Development
+
+- Designed preliminary volute housing geometry with tangential outlet integration
+- Performed multiple redesign iterations of the volute to improve airflow routing and internal flow continuity
+- Experimented with outlet placement, tongue/cutwater geometry, and airflow transition strategies
+- Refined housing smoothness and transition regions using loft and fillet modifications
+- Developed internal airflow path from compressor discharge region to outlet
+- Modeled endplate and housing assembly with integrated bolt pattern geometry
+
+#### Initial Volute Draft
+![Volute Draft](Volute%20draft.png)
+
+#### Volute Development Progress
+![Volute Progress](Volute%20progress.png)
+
+#### Volute With Fillet Refinement
+![Volute Fillet Refinement](Volute%20with%20fillets%20applied%20for%20smoother%20cornering.png)
+
+#### Volute With Compressor Inlet Integration
+![Volute Inlet Integration](Volute%20with%20inlet%20to%20compressor%20housing%20added(1).png)
+
+#### Circular Airflow Path Development
+![Circular Airflow](Circular%20airflow%20in%20volute.png)
+
+#### Endplate and Housing Geometry
+![Endplate and Housing](Endplate%20and%20housing%20part.png)
+
+#### Rear Housing View
+![Rear Housing View](endplate%20and%20housing%20rear%20view.png)
+
+---
+
+## Assembly Development
+
+- Integrated compressor wheel and housing geometry into an early-stage turbocharger assembly
+- Refined component alignment and internal packaging
+- Evaluated preliminary clearances between rotating and stationary geometry
+
+#### Assembly Progress
+![Assembly Progress](Housing%20and%20compressor%20assembly%20progress.png)
+
+#### Turbocharger Assembly Draft
+![Turbocharger Assembly](Turbocharger%20asm%20draft.png)
+
+---
+
+## Engineering Considerations
+
+- Internal airflow continuity and smooth transition regions
+- Tangential outlet alignment for improved flow discharge
+- Structural integrity of compressor-side housing geometry
+- Manufacturability of volute and housing features
+- Simplified aerodynamic representation of compressor wheel geometry
+- Packaging and assembly integration between wheel and housing
+
+---
+
+## Materials
+
+### Compressor Wheel
+- Material: 7075-T6 Aluminum
+- Selected for lightweight high-strength rotational application assumptions
+
+### Compressor Housing
+- Material: 6061-T4 Aluminum
+- Selected for structural evaluation and manufacturability considerations
+
+---
+
+## Structural Analysis
+
+- Conducted preliminary static structural FEA using internal pressure loading conditions
+- Applied simplified boost-pressure loading assumptions to compressor housing geometry
+- Evaluated von Mises stress distribution and displacement behavior
+- Verified stress levels remained below material yield strength during initial validation testing
+
+#### Structural Housing Geometry
+![Volute Structural View](Volute%20structural%20top%20view.png)
 
 ---
 
 ## Key Assumptions
+
 - Steady-state airflow conditions
-- Simplified impeller geometry for initial design phase
+- Simplified impeller aerodynamic behavior
 - Uniform material properties
-- Neglecting transient thermal effects (initial iteration)
+- Simplified static pressure loading
+- No transient thermal effects in current iteration
+
+---
+
+## Current Limitations
+
+- Full CFD airflow simulation not yet implemented
+- Rotating impeller physics not yet modeled
+- Thermal loading between turbine and compressor regions not yet analyzed
+- Volute geometry still undergoing optimization and refinement
+
+---
+
+## Future Work
+
+- Internal CFD flow simulation and velocity visualization
+- Rotating compressor wheel analysis
+- Thermal analysis across compressor and turbine regions
+- Improved tongue/cutwater geometry refinement
+- Optimization of volute cross-sectional area growth
+- Additional assembly detailing and mounting integration
 
 ---
 
 ## Tools and Software
-- SolidWorks (CAD and Assembly)
-- SolidWorks Simulation (Thermal / Structural)
-- Excel / Python (for calculations and data tracking)
 
----
+- SolidWorks (CAD Modeling and Assembly)
+- SolidWorks Simulation (Structural FEA)
+- Excel / Python (Engineering calculations and data tracking)
 
-- Developed initial compressor wheel geometry using revolve-based profiles
-- Implemented curved blade geometry using lofts between sketches with spline guide curves
-- Applied 12-blade circular pattern with consistent 3 mm blade thickness
-- Refined blade curvature and spacing to better represent centrifugal airflow behavior
-- Performed multiple volute redesign iterations to improve airflow routing and outlet integration
-- Experimented with different tongue/cutwater geometries and internal flow passage transitions
-- Refined volute smoothness and housing transitions using loft and fillet modifications
-- Designed compressor housing and endplate assembly with integrated bolt pattern layout
-- Integrated compressor wheel and volute housing into an early-stage turbocharger assembly
-- Assigned 7075-T6 aluminum material to the compressor wheel for realistic lightweight rotational application assumptions
-- Assigned 6061-T4 aluminum material to the compressor housing for structural and manufacturability evaluation
-- Conducted preliminary static structural FEA using internal pressure loading conditions
-- Evaluated von Mises stress distribution and displacement behavior under simplified boost pressure assumptions
-- Verified simulated stress levels remained below material yield strength during initial validation testing
-  
 ---
 
 ## Repository Structure
+
+```text
+/images
+    /volute
+    /compressor-wheel
+    /assembly
+    /fea
+
+/models
+
+README.md
+LICENSE
+```
