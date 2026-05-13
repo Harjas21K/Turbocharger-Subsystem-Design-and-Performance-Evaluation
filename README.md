@@ -76,14 +76,22 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Excel / Python (for calculations and data tracking)
 
 ---
-
-## Current Progress
-- Developed initial compressor wheel geometry using revolve-based profile
--Implemented curved blade design using loft off 2 sketches with a spline guide curve
--Applied circular pattern (12 blades) with consistent 3 mm thickness
--Refined blade curvature and spacing for improved flow representation
--Assigned material (7075-T6 aluminum) for realistic application context and efficient testing performance
-
+Developed initial compressor wheel geometry using revolve-based profile
+Implemented curved blade architecture using lofts between multiple sketches with spline guide curves
+Applied 12-blade circular pattern with consistent 3 mm blade thickness for geometric uniformity
+Refined blade curvature, spacing, and orientation to better represent centrifugal compressor airflow behavior
+Performed multiple iterative redesigns of the volute geometry to improve airflow routing, outlet transition smoothness, and overall housing integration
+Experimented with different volute cross-sectional shapes, outlet positioning strategies, and tongue/cutwater transition concepts during geometry development
+Reworked internal airflow passage geometry several times to improve continuity between the compressor outlet region and tangential discharge outlet
+Iteratively refined volute transitions and housing geometry using fillets and loft modifications for smoother internal flow paths and reduced sharp geometric discontinuities
+Designed preliminary volute housing geometry with tangential outlet integration and internal airflow pathway development
+Modeled compressor housing/endplate assembly with integrated bolt pattern layout and mounting structure
+Integrated compressor wheel and housing components into an early-stage turbocharger assembly configuration
+Assigned 7075-T6 aluminum material to the compressor wheel for lightweight high-strength rotational application assumptions
+Assigned 6061-T4 aluminum material to the compressor housing for realistic manufacturability and structural evaluation context
+Conducted preliminary static structural FEA under simplified internal pressure loading conditions
+Evaluated von Mises stress distribution and housing deformation behavior under applied pressure conditions
+Verified simulated stress levels remained significantly below material yield strength during initial structural validation testing
 ---
 
 ## Repository Structure
