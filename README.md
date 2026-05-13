@@ -135,10 +135,10 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Verified simulated stress levels remained significantly below material yield strength during initial validation testing
 
 ### von Mises Stress Distribution
-![Stress Distribution](images/fea/stress_distribution.png)
+![Stress Distribution](stress_distribution.png)
 
 ### Stress Scale and Material Yield Comparison
-![Stress Scale](images/fea/Stress_distribution_analysis.png)
+![Stress Scale](Stress_distribution_analysis.png)
 
 ### Analysis Notes
 - Maximum simulated stress remained substantially below the 6061-T4 aluminum yield strength
