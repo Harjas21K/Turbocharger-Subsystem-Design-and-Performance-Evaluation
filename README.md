@@ -48,12 +48,6 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Refined blade curvature and blade spacing to better represent centrifugal airflow behavior
 - Integrated compressor wheel into preliminary assembly configurations
 
-#### Compressor Wheel Geometry
-![Compressor Wheel](Compressor%20Wheel.png)
-
-#### Compressor Wheel Progress
-![Compressor Wheel Progress](Compressor%20Wheel%20-%20Copy.png)
-
 ---
 
 ### 3. Volute and Housing Development
@@ -66,7 +60,7 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Modeled endplate and housing assembly with integrated bolt pattern geometry
 
 #### Initial Volute Draft
-![Volute Draft](Volute%20draft.png)
+![Volute Draft](Volute%20part.png)
 
 #### Volute Development Progress
 ![Volute Progress](Volute%20progress.png)
@@ -124,8 +118,6 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Selected for structural evaluation and manufacturability considerations
 
 ---
-
-## Structural Analysis
 
 ## Structural Analysis
 
@@ -188,20 +180,6 @@ This project focuses on the parametric design and engineering analysis of a turb
 - SolidWorks (CAD Modeling and Assembly)
 - SolidWorks Simulation (Structural FEA)
 - Excel / Python (Engineering calculations and data tracking)
-
----
-
-## Repository Structure
-
-```text
-/images
-    /volute
-    /compressor-wheel
-    /assembly
-    /fea
-
-/models
-
 README.md
 LICENSE
 ```
