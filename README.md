@@ -141,9 +141,12 @@ This project focuses on the parametric design and engineering analysis of a turb
 ![Stress Scale](Stress_distribution_analysis.png)
 
 ### Analysis Notes
-- Maximum simulated stress remained substantially below the 6061-T4 aluminum yield strength
-- Highest stress regions occurred near constrained flange transition areas
-- Structural response indicated acceptable deformation behavior under simplified loading conditions
+
+- Maximum simulated von Mises stress reached approximately 1.51 × 10^6 Pa under applied internal pressure loading conditions
+- Assigned 6061-T4 aluminum housing material has an approximate yield strength of 2.275 × 10^8 Pa
+- Simulated stress levels remained substantially below material yield strength, indicating that the housing did not approach yielding under the simplified loading case
+- Highest stress concentrations occurred near constrained flange transition regions while remaining within acceptable structural limits
+- Preliminary results indicate acceptable structural integrity and deformation behavior for the current compressor housing design iteration
 
 #### Structural Housing Geometry
 ![Volute Structural View](Volute%20structural%20top%20view.png)
