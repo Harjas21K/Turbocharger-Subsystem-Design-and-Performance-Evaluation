@@ -138,7 +138,7 @@ This project focuses on the parametric design and engineering analysis of a turb
 ![Stress Distribution](images/fea/stress_distribution.png)
 
 ### Stress Scale and Material Yield Comparison
-![Stress Scale](images/fea/stress_scale.png)
+![Stress Scale](images/fea/Stress_distribution_analysis.png)
 
 ### Analysis Notes
 - Maximum simulated stress remained substantially below the 6061-T4 aluminum yield strength
