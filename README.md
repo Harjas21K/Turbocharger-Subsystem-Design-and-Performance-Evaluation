@@ -65,9 +65,6 @@ This project focuses on the parametric design and engineering analysis of a turb
 #### Volute With Fillet Refinement
 ![Volute Fillet Refinement](Volute%20with%20fillets%20applied%20for%20smoother%20cornering.png)
 
-#### Volute With Compressor Inlet Integration
-![Volute Inlet Integration](Volute%20with%20inlet%20to%20compressor%20housing%20added(1).png)
-
 #### Circular Airflow Path Development
 ![Circular Airflow](Circular%20airflow%20in%20volute.png)
 
