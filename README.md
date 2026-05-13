@@ -127,10 +127,23 @@ This project focuses on the parametric design and engineering analysis of a turb
 
 ## Structural Analysis
 
+## Structural Analysis
+
 - Conducted preliminary static structural FEA using internal pressure loading conditions
-- Applied simplified boost-pressure loading assumptions to compressor housing geometry
-- Evaluated von Mises stress distribution and displacement behavior
-- Verified stress levels remained below material yield strength during initial validation testing
+- Applied simplified internal pressure assumptions to compressor housing geometry
+- Evaluated von Mises stress distribution and displacement behavior under simulated boost pressure loading
+- Verified simulated stress levels remained significantly below material yield strength during initial validation testing
+
+### von Mises Stress Distribution
+![Stress Distribution](images/fea/stress_distribution.png)
+
+### Stress Scale and Material Yield Comparison
+![Stress Scale](images/fea/stress_scale.png)
+
+### Analysis Notes
+- Maximum simulated stress remained substantially below the 6061-T4 aluminum yield strength
+- Highest stress regions occurred near constrained flange transition areas
+- Structural response indicated acceptable deformation behavior under simplified loading conditions
 
 #### Structural Housing Geometry
 ![Volute Structural View](Volute%20structural%20top%20view.png)
