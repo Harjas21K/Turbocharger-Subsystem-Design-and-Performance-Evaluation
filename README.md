@@ -60,9 +60,6 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Modeled endplate and housing assembly with integrated bolt pattern geometry
 
 #### Initial Volute Draft
-![Volute Draft](Volute%20part.png)
-
-#### Volute Development Progress
 ![Volute Progress](Volute%20progress.png)
 
 #### Volute With Fillet Refinement
