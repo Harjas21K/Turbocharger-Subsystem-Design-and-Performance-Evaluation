@@ -137,6 +137,8 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Highest stress concentrations occurred near constrained flange transition regions while remaining within acceptable structural limits
 - Preliminary results indicate acceptable structural integrity and deformation behavior for the current compressor housing design iteration
 
+---
+
 
 ### Volute Structural Analysis
 - Conducted preliminary structural FEA on the compressor volute housing under simplified internal pressure loading conditions
@@ -158,6 +160,9 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Structural response remained within acceptable limits under simplified boost pressure assumptions
 - Results indicated improved understanding of stress behavior within asymmetric volute geometry compared to earlier simplified housing analysis
 - Selected 6061-T4 aluminum provided acceptable structural performance for preliminary compressor-side loading evaluation
+
+
+---
 
 
 #### Structural Housing Geometry
