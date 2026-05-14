@@ -111,19 +111,22 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Material: 6061-T4 Aluminum
 - Selected for structural evaluation and manufacturability considerations
 
+### Volute
+- Material: 6061-T4 Aluminum
+- Selected due to its lightweight structure, manufacturability, corrosion resistance, and sufficient strength for preliminary pressure-loading analysis
 ---
 
-## Structural Analysis
+## Compressor Housing Structural Analysis
 
 - Conducted preliminary static structural FEA using internal pressure loading conditions
 - Applied simplified internal pressure assumptions to compressor housing geometry
 - Evaluated von Mises stress distribution and displacement behavior under simulated boost pressure loading
 - Verified simulated stress levels remained significantly below material yield strength during initial validation testing
 
-### von Mises Stress Distribution
+### Von Mises Stress Distribution on compressor housing
 ![Stress Distribution](stress_distribution.png)
 
-### Stress Scale and Material Yield Comparison
+### Stress Scale and Material Yield Comparison of compressor housing
 ![Stress Scale](Stress_distribution_analysis.png)
 
 ### Analysis Notes
@@ -133,6 +136,29 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Simulated stress levels remained substantially below material yield strength, indicating that the housing did not approach yielding under the simplified loading case
 - Highest stress concentrations occurred near constrained flange transition regions while remaining within acceptable structural limits
 - Preliminary results indicate acceptable structural integrity and deformation behavior for the current compressor housing design iteration
+
+
+### Volute Structural Analysis
+- Conducted preliminary structural FEA on the compressor volute housing under simplified internal pressure loading conditions
+- Applied internal pressure loads to airflow-contact surfaces while constraining the lower mounting region of the volute
+- Evaluated stress concentration behavior near the tongue/cutwater transition and outlet integration geometry
+- Observed localized stress increases near internal transition regions while remaining below material yield strength limits
+
+
+### Von Mises Stress Distribution on volute
+![Stress Distribution](Stress_dist_vol.png)
+
+
+### Stress Scale and Material Yield Comparison of compressor housing
+![Stress Scale](Vol_von_scale.png)
+
+### Volute Analysis Notes
+
+- Maximum stress concentrations occurred near the tongue transition and outlet merge regions due to localized geometric discontinuities
+- Structural response remained within acceptable limits under simplified boost pressure assumptions
+- Results indicated improved understanding of stress behavior within asymmetric volute geometry compared to earlier simplified housing analysis
+- Selected 6061-T4 aluminum provided acceptable structural performance for preliminary compressor-side loading evaluation
+
 
 #### Structural Housing Geometry
 ![Volute Structural View](Volute%20structural%20top%20view.png)
