@@ -107,7 +107,7 @@ Created a detailed engineering drawing package for the compressor housing endpla
 
 ### Compressor Housing Endplate Technical Drawing
 
-![Compressor Housing Drawing](Compressor_Housing_Drawing2.png)
+![Compressor Housing Drawing](Compressor_Housing_Drawing_2.png)
 
 ### Drawing Features
 - Orthographic front and profile views
