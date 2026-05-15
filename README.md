@@ -99,6 +99,32 @@ This project focuses on the parametric design and engineering analysis of a turb
 - Simplified aerodynamic representation of compressor wheel geometry
 - Packaging and assembly integration between wheel and housing
 
+
+---
+## Technical Drawing Documentation
+
+Created a detailed engineering drawing package for the compressor housing endplate using SolidWorks drafting tools. The drawing package includes orthographic projections, section views, dimensional annotations, and manufacturing-oriented documentation practices.
+
+### Compressor Housing Endplate Technical Drawing
+
+![Compressor Housing Drawing](Pictures/Screenshots/Compressor%20Housing%20Drawing%202.png)
+
+### Drawing Features
+- Orthographic front and profile views
+- Section A-A view exposing internal geometry and wall thickness
+- Isometric reference visualization
+- Fully dimensioned flange and bore geometry
+- Bolt pattern callouts and centerline annotations
+- Fillet and feature dimensioning
+- Material specification and title block formatting
+- Drafted using SolidWorks drawing environment
+
+### Engineering Notes
+- Dimensions documented in millimeters
+- Section view used to communicate manufacturable internal geometry
+- Drawing layout follows standard mechanical drafting workflow
+- Component intended for conceptual turbocharger compressor housing assembly integration
+
 ---
 
 ## Materials
