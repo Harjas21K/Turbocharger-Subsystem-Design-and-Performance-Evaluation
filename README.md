@@ -103,6 +103,32 @@ This project focuses on the parametric design and engineering analysis of a turb
 ---
 ## Technical Drawing Documentation
 
+
+## Compressor Wheel Technical Drawing Documentation
+
+Created a detailed engineering drawing package for the centrifugal compressor wheel using SolidWorks drafting tools. The drawing package includes orthographic projections, an isometric reference view, and a sectional view used to communicate internal hub geometry and blade configuration.
+
+### Compressor Wheel Technical Drawing
+![Compressor Wheel Drawing](Compressor_Drawing.png)
+
+### Drawing Features
+- Orthographic front and profile views
+- Section B-B view exposing internal hub geometry
+- Isometric reference visualization
+- Dimensional annotations for overall wheel geometry and shaft bore features
+- Primary and splitter blade configuration labeling
+- Rotational direction callouts
+- Material specification and title block formatting
+- Drafted using SolidWorks drawing environment
+
+### Engineering Notes
+- Dimensions documented in millimeters
+- Section view used to communicate internal manufacturable geometry
+- Drawing layout follows standard mechanical drafting workflow
+- Compressor wheel modeled for conceptual turbocharger airflow analysis and assembly integration
+
+---
+
 Created a detailed engineering drawing package for the compressor housing endplate using SolidWorks drafting tools. The drawing package includes orthographic projections, section views, dimensional annotations, and manufacturing-oriented documentation practices.
 
 ### Compressor Housing Endplate Technical Drawing
