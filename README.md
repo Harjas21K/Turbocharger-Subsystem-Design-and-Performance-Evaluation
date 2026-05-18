@@ -217,11 +217,6 @@ Created a detailed engineering drawing package for the compressor housing endpla
 ---
 
 
-#### Structural Housing Geometry
-![Volute Structural View](Volute%20structural%20top%20view.png)
-
----
-
 ## Key Assumptions
 
 - Steady-state airflow conditions
