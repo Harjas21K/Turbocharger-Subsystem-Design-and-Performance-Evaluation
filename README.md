@@ -153,6 +153,40 @@ Created a detailed engineering drawing package for the compressor housing endpla
 
 ---
 
+
+## Volute Development and Technical Drawing
+
+Designed and documented a turbocharger compressor volute using SolidWorks with emphasis on airflow routing, outlet integration, and manufacturable housing geometry. The volute was developed through multiple design iterations focused on improving internal flow continuity and smoother tangential discharge behavior.
+
+### Volute Design Features
+- Spiral compressor-side volute geometry
+- Tangential outlet integration
+- Internal airflow passage development
+- Smooth transition refinement using lofts and fillets
+- Radius-based geometric control strategy
+- Integrated housing and outlet geometry
+
+### Volute Technical Drawing
+![Volute Drawing](Turbo_Volute_Drawing.png)
+
+### Drawing Features
+- Orthographic front, side, and outlet views
+- Isometric reference visualization
+- Radius-based dimensional annotations
+- Outlet profile and diameter dimensioning
+- Engineering title block and material documentation
+- Drafted using SolidWorks drawing tools
+
+### Engineering Notes
+- Dimensions documented in millimeters
+- Major volute radii used to define airflow path geometry
+- Drawing layout developed to improve readability of asymmetric curved geometry
+- 6061-T6 aluminum selected for preliminary manufacturability and structural evaluation assumptions
+- Volute geometry intended for future CFD airflow analysis and assembly integration studies
+
+
+---
+
 ## Materials
 
 ### Compressor Wheel
